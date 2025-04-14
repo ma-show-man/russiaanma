@@ -1,0 +1,249 @@
+/* ｃｏｍｍｏｎ */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+img{
+    width: 100%;
+}
+p{
+    letter-spacing: -0.025em;
+    line-height: 150%;
+}
+
+
+
+.main{
+    position: relative;
+    z-index: 3;
+    color: #fff;
+}
+.banner-img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+.banner-img img{
+    object-fit: cover;
+    height: 600px;
+}
+
+.service h2{
+ margin-bottom: 30px;     
+}
+.main p{
+    margin-top: 3rem;
+    line-height: 2rem;
+}
+.description{
+    background-color: #FFF7F0;
+    padding: 100px 0;
+}
+
+.description p{
+    margin-top: 3rem;
+    line-height: 2rem;
+}
+
+
+.main{
+    padding: 9% 0;
+}
+.main p{
+    margin-bottom: 40px;
+}
+
+/* tag */
+
+.tag ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 0 10px;
+    justify-content:center;
+}
+.tag li{
+    list-style: none;
+}
+.tag_design{
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 100px;
+}
+
+
+.section__04{
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.banner-title{
+    padding: 50px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+
+.google__map{
+    padding: 100px 0;
+}
+
+.service__img img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.service__text h4{
+    margin: 10px 0;
+}
+
+.service__text p{
+    margin: 0 0 20px 0;
+}
+.course{
+    padding: 100px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.course__img img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.course__title h3{
+    margin-bottom: 15px;
+}
+.course__title p{
+    margin-top: 15px;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 50px;justify-content: center;
+    align-items: center;
+}
+.footer ul{
+    display: flex;
+    list-style: none;
+    gap: 0 20px;
+}
+
+/* menu */
+
+.navi{
+    position: fixed;
+    padding-top: 25px !important;
+    bottom: 0;
+    width: 100%;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    -webkit-animation: gradient 15s ease infinite;
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    padding: 10px 0;
+}
+
+
+
+.navi ul{
+    width: 100%;
+    display: flex;
+}
+.navi li{
+    text-align: center;
+    list-style: none;
+    width: 33%;
+}
+
+.navi a{
+    color: #fff;
+}
+.navi i{
+    position: relative;
+    top: 5px;
+    font-size: 1.3rem;
+    margin-right: 0.5rem;
+}
+
+
+.money ul{
+    display: flex;
+    list-style: none;
+   
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.money-title{
+    padding: 10px 20px;
+    border: 1px solid #e73c7e;
+    border-radius: 15px;
+    color: #e73c7e;
+    font-weight: bold;
+}
+.time-title{
+    padding: 10px 20px;
+    border: 1px solid #23d5ab;
+    border-radius: 15px;
+    color: #23d5ab;
+    font-weight: bold;
+}
+
+.time-title{
+    width: 100%;
+}
+.co-text{
+    color: #ee7752;
+    border: 1px solid #ee7752;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@media(max-width:765px){
+    .money ul{
+        font-size: 1rem;
+    }
+    .money li{
+        margin-bottom: 20px;    
+    }
+}
+
+.border-align{
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
