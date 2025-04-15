@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://github.com/ma-show-man/russiaanma/sitemap.xml
